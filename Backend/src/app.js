@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://interview-gen-ai-project-alpha.vercel.app/",
+    origin: "https://interview-gen-ai-project-alpha.vercel.app",
     credentials: true
 }))
 
